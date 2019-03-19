@@ -9,10 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Nueva Solicitud</title>
+        <title>Nueva Solicitud</title>        
+        <base href="http://localhost:8080/Activos/" >
     </head>
     <body>
-       <%@ include file="/presentation/Header.jsp" %>
+       <%@ include file="/presentacion/Header.jsp" %>
     
     <!-- formulario para agregar el bien-->
     <span> </span>

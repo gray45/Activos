@@ -7,13 +7,6 @@
 debe de ir alguna variable en este jsp para que cambie el nombre en el menu o header
 --%>
 
-<div class="card" style="height: 50px; width: 50%; background-color: whitesmoke; ">
-    <ul class="menu">
-        <li> <a href="presentation/personas/create/View.jsp">Principal</a> </li>
-        <!--mandar a la pagina de login-->
-    <li> <a href="presentation/personas/list"><%%></a> </li>         
-   </ul>
-</div>
 
    <!-- menu  -->
     <div style="display: block; border: 2px solid blue; height:75px; width:100%;">
