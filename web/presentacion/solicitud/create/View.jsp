@@ -11,13 +11,26 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Nueva Solicitud</title>        
         <base href="http://localhost:8080/Activos/" >
+        <script>
+            
+            function agregarBienes(){
+                
+                //se debe de imprimir una pantalla que imprima los bienes uno a uno 
+                
+                //debe retornar todo un array con los bienes solicitados
+            }
+            
+            
+        </script>
+            
     </head>
     <body>
        <%@ include file="/presentacion/Header.jsp" %>
     
     <!-- formulario para agregar el bien-->
     <span> </span>
-    <br>
+
+   
     <div class= "pantallaPrincipal" style="display: block; border: 2px solid blue; height:400px; width:96%; margin: 25px; alignment-adjust: central">
         <h1>Solicitud</h1>
         <form>       
@@ -34,8 +47,30 @@
         </form> 
         
         <br>
-        <button onclick="myFunction()">Agregar un bien</button> 
+        <button onclick="agregarBienes()">Agregar un bien</button> 
+        
+        
+        <div><h1>Pagina Principal</h1>
+            <button onclick ="
+                document.getElementById('o').style.display='block';
+                document.getElementById('p').style.display='block';">Popup            
+            </button>   
+        </div>
+        
+        <div id="o" class="overlay">
+            
+        </div>
+        
+        <div id="p" class="popup">
+            <h2>Esto es un pop-up</h2>            
+            <button onclick ="document.getElementById('o').style.display='none';document.getElementById('p').style.display='none';">
+                Regresar
+            </button> 
+        </div>
+    
     </div>
   
+    
     </body>
 </html>
+ 
